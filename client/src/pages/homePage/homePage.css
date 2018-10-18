@@ -7,7 +7,7 @@ body{
 }
 
 .navbar{
-   background: rgba(33, 83, 192, 0.9) !important;
+   background: rgb(252, 252, 253,.3) !important;
    width: 100% !important;
    position: absolute  !important;
    right:0 !important;
