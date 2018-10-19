@@ -1,5 +1,5 @@
 body{
-    background-image: url("../../pic/Owners.jpg");
+    /* background-image: url("../../pic/Owners.jpg"); */
     background-repeat: no-repeat;
     background-color: #cccccc;
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -16,6 +16,49 @@ body{
     color:rgb(240, 224, 10);
     font-family: 'Kanit', sans-serif;
 }
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+}
+.buffer{
+    margin-top: 15%
+}
+.header{
+    background-color: rgba(43, 43, 219, 0.7) !important;
+    height: 40px;
+    width:120%;
+    
+}
+.white{
+    background:rgba(182, 178, 178, 0.5);
+}
+
+@media only screen and (max-height:812px ) {
+    .buffer{
+        margin-top:20px;
+    }
+    /* .header{
+        background-color:  rgba(43, 43, 219, 0.7) !important;
+        height: 10px;
+        width:120%;
+    } */
+}
+@media only screen and (max-width: 570px) {
+    .buffer{
+        margin-top:0;
+    }
+    .header{
+        background-color:  rgba(43, 43, 219, 0.7) ;
+        height: 10px;
+        width:120%;
+    }
+}
+
 
 /* font-family: 'Kanit', sans-serif;
 font-family: 'Cinzel', serif;
