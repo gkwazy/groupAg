@@ -7,10 +7,10 @@ body{
 }
 
 .navbar{
-   background: rgb(252, 252, 253,.3) !important;
+   background: rgb(252, 252, 253,.6) !important;
    width: 100% !important;
    position: absolute  !important;
-   right:0 !important;
+
 }
 .navbar-dark .navbar-brand{
     color:rgb(240, 224, 10);
@@ -26,7 +26,7 @@ body{
     z-index: -1;
 }
 .buffer{
-    margin-top: 15%
+    margin-top: 20%;
 }
 .header{
     background-color: rgba(43, 43, 219, 0.7) !important;
@@ -35,12 +35,15 @@ body{
     
 }
 .white{
-    background:rgba(182, 178, 178, 0.5);
+    background:rgba(10, 10, 10, 0.0);
+    color:rgb(12, 62, 128);
+    font-family: 'Permanent Marker', cursive;
 }
+
 
 @media only screen and (max-height:812px ) {
     .buffer{
-        margin-top:20px;
+        margin-top: 20%;
     }
     /* .header{
         background-color:  rgba(43, 43, 219, 0.7) !important;
@@ -50,7 +53,7 @@ body{
 }
 @media only screen and (max-width: 570px) {
     .buffer{
-        margin-top:0;
+        margin-top: 130px;
     }
     .header{
         background-color:  rgba(43, 43, 219, 0.7) ;
