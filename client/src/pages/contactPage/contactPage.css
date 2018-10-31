@@ -1,0 +1,31 @@
+body{
+    background-color: rgba(43, 43, 219, 0.7);
+}
+
+.topNav{
+    padding-bottom: 110px;
+    right : 10px;
+    width:110%;
+}
+.cardInfo{
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    /* color:white;
+    text-shadow:
+    -1px -1px 0 rgb(0, 0, 0),
+    1px -1px 0 rgb(0, 0, 0),
+    -1px 1px 0 rgb(0, 0, 0),
+    1px 1px 0 rgb(0, 0, 0);    */
+}
+
+.getInTouch{
+    padding-bottom: 40px;
+    padding-top: 50px;
+       
+}
+
+/* font-family: 'Kanit', sans-serif;
+font-family: 'Cinzel', serif;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Russo One', sans-serif; */

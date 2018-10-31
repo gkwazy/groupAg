@@ -10,13 +10,16 @@ const Nav = ({ children }) => (
         </a>
         <ul className="nav ">
             <li className="nav-item">
+                <a className="nav-link active" href="/">Home</a>
+            </li>
+            {/* <li className="nav-item">
                 <a className="nav-link active" href="/active">Active</a>
             </li>
             <li className="nav-item">
                 <a className="nav-link" href="/link">Link</a>
-            </li>
+            </li> */}
             <li className="nav-item">
-                <a className="nav-link" href="/features" >Features</a>
+                <a className="nav-link" href="/contact" >Contact</a>
             </li>
 
         </ul>
